@@ -1,0 +1,7 @@
+/* mobile start */
+@media screen and (max-width:375px) {
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-top: 2px solid #fff;
+    }
+    
+}
