@@ -4,18 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
     <title>My Web Solutions</title>
   </head>
   <body>
-    <div class="section">
-      <div w3-include-html="content.html"></div>
+    <div class="section hader">
+      <iframe src="navbar.html"></iframe>
+    </div>
+
+    <div class="main_blog">
+      <div class="container_fluid">
+        <div class="row_flex">
+          <div class="col_md_6">
+            <div class="card">
+              <h1>
+                We're not just a web design agency. We're the
+                <span> best web Design </span>
+                Agency.
+              </h1>
+              <p>
+                Web designers plan, create and code internet sites and web
+                pages, many of which combine text with sounds, pictures,
+                graphics and video clips
+              </p>
+            </div>
+          </div>
+          <div class="col_md_6">
+            <img src="images/main-blog-image.png" alt="Web Design Banner" />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>

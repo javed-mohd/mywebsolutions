@@ -2,28 +2,32 @@
     padding: 0px;
     margin: 0px;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 
 /* start navbar styles */
 .navbar-inverse {
     border-radius: 0px;
-    background-color: #32CD32;
+    background-color :#32CD32;
     border: 1px solid #32CD32;
     min-height: 67px;
-    max-height: auto;
 }
 .navbar-inverse .container-fluid {
     padding-top: 8px;
 }
 .navbar-inverse a {
     color: #fff !important;
+    font-weight: 500;
     font-size: 17px;
 }
 ul.nav.navbar-nav li {
     margin: 0px 5px;
 }
-.navbar-inverse .navbar-nav>.active>a {
-    background: none;
-}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: #7DF9FF;
+}
+.navbar-inverse a:hover {
+    color: #db2929 !important;
+    transition-duration: 0.4s;
 }
