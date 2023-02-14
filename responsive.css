@@ -1,7 +1,25 @@
-/* mobile start */
-@media screen and (max-width:375px) {
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-        border-top: 2px solid #fff;
+
+@media screen and (max-width:768px) {
+    .main_blog .row_flex {
+        display: block;
+        padding: 0px 16px;
+        margin-top: 6rem;
     }
-    
+    .main_blog .row_flex .col_md_6 {
+        width: 100%;
+    }
+    .main_blog .row_flex .col_md_6 h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main_blog {
+        height: auto;
+    }
+    .main_blog .row_flex .ph-cls {
+        text-align: center;
+    }
+    .main_blog .row_flex img {
+        margin-top: 34px;
+        float: initial;
+    }
 }
